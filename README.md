@@ -25,3 +25,21 @@ It is a compressed version of the OSI model with only 4 layers. It was developed
 There are majorly 2 main layers in the OSI model:
 Physical Layer
 Data Link Layer
+
+## Significance of Data Link Layer-
+
+It is used for transferring the data from one node to another node.
+It receives the data from the network layer and converts the data into data frames and then attaches the physical address to these frames which are sent to the physical layer.
+It enables the error-free transfer of data from one node to another node.
+
+Functions of Data-link layer:
+
+Frame synchronisation: Data-link layer converts the data into frames, and it ensures that the destination must recognize the starting and ending of each frame.
+Flow control: Data-link layer controls the data flow within the network.
+Error control: It detects and corrects the error occurred during the transmission from source to destination.
+Addressing: Data-link layers attach the physical address with the data frames so that the individual machines can be easily identified.
+Link management: Data-link layer manages the initiation, maintenance and termination of the link between the source and destination for the effective exchange of data.
+
+## Define gateway, difference between gateway and router:
+
+A node that is connected to two or more networks is commonly known as a gateway. It is also known as a router. It is used to forward messages from one network to another. Both the gateway and router regulate the traffic in the network. Differences between gateway and router: A router sends the data between two similar networks while gateway sends the data between two dissimilar networks. 
