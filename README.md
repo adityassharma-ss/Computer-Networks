@@ -43,3 +43,21 @@ Link management: Data-link layer manages the initiation, maintenance and termina
 ## Define gateway, difference between gateway and router:
 
 A node that is connected to two or more networks is commonly known as a gateway. It is also known as a router. It is used to forward messages from one network to another. Both the gateway and router regulate the traffic in the network. Differences between gateway and router: A router sends the data between two similar networks while gateway sends the data between two dissimilar networks. 
+
+## What does ping command do ?
+
+The “ping” is a utility program that allows you to check the connectivity between the network devices. You can ping devices using its IP address or name. 
+
+## What is DNS, DNS forwarder, NIC, ? 
+
+DNS:
+1. DNS is an acronym that stands for Domain Name System.DNS was introduced by Paul Mockapetris and Jon Postel in 1983.
+2. It is a naming system for all the resources over the internet which includes physical nodes and applications. It is used to locate resources easily over a network.
+3. DNS is an internet which maps the domain names to their associated IP addresses.
+4. Without DNS, users must know the IP address of the web page that you wanted to access.
+
+DNS Forwarder : A forwarder is used with a DNS server when it receives DNS queries that cannot be resolved quickly. So it forwards those requests to external DNS servers for resolution. A DNS server which is configured as a forwarder will behave differently than the DNS server which is not configured as a forwarder. NIC stands for Network Interface Card. It is a peripheral card attached to the PC to connect to a network. Every NIC has its own MAC address that identifies the PC on the network. It provides a wireless connection to a local area network. NICs were mainly used in desktop computers. 
+
+## What is MAC address ? 
+
+A media access control address (MAC address) is a unique identifier assigned to a network interface controller (NIC) for use as a network address in communications within a network segment. 
