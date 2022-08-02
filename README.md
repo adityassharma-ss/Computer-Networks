@@ -61,3 +61,61 @@ DNS Forwarder : A forwarder is used with a DNS server when it receives DNS queri
 ## What is MAC address ? 
 
 A media access control address (MAC address) is a unique identifier assigned to a network interface controller (NIC) for use as a network address in communications within a network segment. 
+
+## What is IP address, private IP address, public IP address, APIPA ? 
+
+An IP address is a unique address that identifies a device on the internet or a local network. IP stands for “Internet Protocol,” which is the set of rules governing the format of data sent via the internet or local network.
+
+Private IP Address – There are three ranges of IP addresses that have been reserved
+for IP addresses. They are not valid for use on the internet. If you want to access the
+internet on these private IPs, you must use a proxy server or NAT server.
+
+Public IP Address – A public IP address is an address taken by the Internet Service
+Provider which facilitates communication on the internet.
+
+APIPA stands for Automatic Private IP Addressing (APIPA). It is a feature or characteristic in operating systems (eg. Windows) which enables computers to self-configure an IP address and subnet mask automatically when their DHCP(Dynamic Host Configuration Protocol:A DHCP Server is a network server that automatically provides and assigns IP addresses, default gateways and other network parameters to client devices. It relies on the standard protocol known as Dynamic Host Configuration Protocol) server isn’t reachable.
+
+## What is subnet ? 
+
+A subnet is a network inside a network achieved by the process called subnetting which helps divide a network into subnets. It is used for getting a higher routing efficiency and enhances the security of the network. It reduces the time to extract the host address from the routing table. 
+
+## Firewalls:
+
+The firewall is a network security system that is used to monitor the incoming
+and outgoing traffic and blocks the same based on the firewall security policies. It acts as a wall between the internet (public network) and the networking devices (a private network). It is either a hardware device, software program, or a combination of both. It adds a layer of security to the network. 
+
+## Different type of delays:
+
+The delays, here, means the time for which the processing of a particular packet takes place.
+
+We have the following types of delays in computer networks:
+
+    Transmission Delay
+    Propagation delay
+    Queueing delay
+    Processing delay
+
+## 3 way handshaking:
+
+Three-Way HandShake or a TCP 3-way handshake is a process which is used in a TCP/IP network to make a connection between the server and client. It is a three-step process that requires both the client and server to exchange synchronisation and acknowledgment packets before the real data communication process starts.
+
+Three-way handshake process is designed in such a way that both ends help you to initiate, negotiate, and separate TCP socket connections at the same time. It allows you to transfer multiple TCP socket connections in both directions at the same time.
+
+## Server-side load balancer:
+
+All backend server instances are registered with a central load balancer. A client requests this load balancer which then routes the request to one of the server instances using various algorithms like round-robin. AWS ELB(Elastic Load Balancing) is a prime example of server-side load-balancing that registers multiple EC2 instances launched in its auto-scaling group and then routes the client requests to one of the EC2 instances.
+
+Advantages of server-side load balancing:
+
+Simple client configuration: only need to know the load-balancer address.
+Clients can be untrusted: all traffic goes through the load-balancer where it can be looked at. Clients are not aware of the backend servers.
+
+## RSA Algorithm:
+
+RSA algorithm is an asymmetric cryptography algorithm. Asymmetric actually means that it works on two different keys i.e. Public Key and Private Key. As the name describes, the Public Key is given to everyone and the Private key is kept private.
+
+An example of asymmetric cryptography : A client (for example browser) sends its public key to the server and requests for some data. The server encrypts the data using the client’s public key and sends the encrypted data. Client receives this data and decrypts it. Since this is asymmetric, nobody else except the browser can decrypt the data even if a third party has the public key of the browser. 
+
+## What is HTTP and HTTPS protocol?
+
+HTTP is the HyperText Transfer Protocol which defines the set of rules and standards on how the information can be transmitted on the World Wide Web (WWW). It helps the web browsers and web servers for communication. It is a ‘stateless protocol’ where each command is independent with respect to the previous command. HTTP is an application layer protocol built upon the TCP. It uses port 80 by default. HTTPS is the HyperText Transfer Protocol Secure or Secure HTTP. It is an advanced and a secured version of HTTP. On top of HTTP, SSL/TLS protocol is used to provide security. It enables secure transactions by encrypting the communication and also helps identify network servers securely. It uses port 443 by default. 
